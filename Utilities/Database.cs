@@ -26,7 +26,7 @@ namespace Utilities
         public static DataTable runParamQuery(string query, List<MySqlParameter> parameters)
         {
             DataTable result = new DataTable();
-            using (MySqlConnection conn = new MySqlConnection("Database=Accounts;Data Source=erwin;User Id=<user>;Password=<password>"))
+            using (MySqlConnection conn = new MySqlConnection("Database=Accounts;Data Source=127.0.0.1;User Id=root;Password="))
             {
                 if (conn.State != ConnectionState.Open)
                 {

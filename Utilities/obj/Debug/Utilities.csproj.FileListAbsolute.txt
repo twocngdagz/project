@@ -5,3 +5,9 @@ C:\Users\ROY\Downloads\project\project\Utilities\bin\Debug\nunit.framework.dll
 C:\Users\ROY\Downloads\project\project\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
 C:\Users\ROY\Downloads\project\project\Utilities\obj\Debug\Utilities.dll
 C:\Users\ROY\Downloads\project\project\Utilities\obj\Debug\Utilities.pdb
+D:\WORK\project\Utilities\bin\Debug\Utilities.dll
+D:\WORK\project\Utilities\bin\Debug\Utilities.pdb
+D:\WORK\project\Utilities\bin\Debug\MySql.Data.dll
+D:\WORK\project\Utilities\bin\Debug\nunit.framework.dll
+D:\WORK\project\Utilities\obj\Debug\Utilities.dll
+D:\WORK\project\Utilities\obj\Debug\Utilities.pdb

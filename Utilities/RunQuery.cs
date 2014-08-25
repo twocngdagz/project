@@ -14,7 +14,7 @@ namespace Utilities
         {
             try
             {
-                using (MySqlConnection conn = new MySqlConnection("Database=Accounts;Data Source=erwin;User Id=<user>;Password=<password>"))
+                using (MySqlConnection conn = new MySqlConnection("Database=Accounts;Data Source=localhost;User Id=root;Password="))
                 {
                     if (conn.State != ConnectionState.Open)
                     {

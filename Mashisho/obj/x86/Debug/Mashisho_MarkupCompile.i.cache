@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ROY\Downloads\project\project\Mashisho\obj\x86\Debug\
+D:\WORK\project\Mashisho\obj\x86\Debug\
 Mashisho
 none
 false
 DEBUG;TRACE
-C:\Users\ROY\Downloads\project\project\Mashisho\App.xaml
+D:\WORK\project\Mashisho\App.xaml
 71571513544
 
 38-1196612202
-15295434170
+15464284435
 Views\FilterListDetailView.xaml;Views\Landlord\LandlordDetail.xaml;Views\Landlord\LandlordFilterControl.xaml;Views\Tenant\TenantFilterControl.xaml;MainWindow.xaml;Views\Tenant\TenantDetail.xaml;Views\MyDict.xaml;
 
-True
+False
 

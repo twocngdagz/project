@@ -4,3 +4,9 @@ C:\Users\ROY\Downloads\project\project\MVVMCodeGenerator\bin\Debug\MVVMCodeGener
 C:\Users\ROY\Downloads\project\project\MVVMCodeGenerator\bin\Debug\nunit.framework.dll
 C:\Users\ROY\Downloads\project\project\MVVMCodeGenerator\obj\x86\Debug\MVVMCodeGenerator.dll
 C:\Users\ROY\Downloads\project\project\MVVMCodeGenerator\obj\x86\Debug\MVVMCodeGenerator.pdb
+D:\WORK\project\MVVMCodeGenerator\bin\Debug\MVVMCodeGenerator.dll.config
+D:\WORK\project\MVVMCodeGenerator\bin\Debug\MVVMCodeGenerator.dll
+D:\WORK\project\MVVMCodeGenerator\bin\Debug\MVVMCodeGenerator.pdb
+D:\WORK\project\MVVMCodeGenerator\bin\Debug\nunit.framework.dll
+D:\WORK\project\MVVMCodeGenerator\obj\x86\Debug\MVVMCodeGenerator.dll
+D:\WORK\project\MVVMCodeGenerator\obj\x86\Debug\MVVMCodeGenerator.pdb
