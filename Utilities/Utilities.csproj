@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D35D765F-BAE3-4624-88EE-9E7766F89CAE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Utilities</RootNamespace>
+    <AssemblyName>Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\DLLs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\DLLs\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractUnboundedSchedule.cs" />
+    <Compile Include="BoundedScheduleAdaptor.cs" />
+    <Compile Include="BoundedScheduleAdaptorTest.cs" />
+    <Compile Include="BumpRule.cs" />
+    <Compile Include="cNetworkDrive_0017.cs" />
+    <Compile Include="Environment\Calendar.cs" />
+    <Compile Include="Environment\Environment.cs" />
+    <Compile Include="Environment\Rate.cs" />
+    <Compile Include="Environment\RateResolver.cs" />
+    <Compile Include="Environment\RateResolverTest.cs" />
+    <Compile Include="FormulaInterestOnlySchedule.cs" />
+    <Compile Include="FormulaRepaymentScheduleTest.cs" />
+    <Compile Include="FormulaSchedule.cs" />
+    <Compile Include="LoanSplitResult.cs" />
+    <Compile Include="RepaymentSchedulesByInputLoanName.cs" />
+    <Compile Include="ScheduleUtils.cs" />
+    <Compile Include="ScheduleUtilsTest.cs" />
+    <Compile Include="SharedDrives.cs" />
+    <Compile Include="SimpleListSchedule.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="DateBumpTest.cs" />
+    <Compile Include="DayRepeaterScheduleTest.cs" />
+    <Compile Include="Environment\UKCalendarTest.cs" />
+    <Compile Include="FormulaRepaymentSchedule.cs" />
+    <Compile Include="IBoundedSchedule.cs" />
+    <Compile Include="IRepaymentSchedule.cs" />
+    <Compile Include="LoanAccountRepaymentSchedule.cs" />
+    <Compile Include="MonthlyScheduleTest.cs" />
+    <Compile Include="PrintPDF.cs" />
+    <Compile Include="DateBump.cs" />
+    <Compile Include="DayRepeaterSchedule.cs" />
+    <Compile Include="Environment\UKCalendar.cs" />
+    <Compile Include="IUnboundedSchedule.cs" />
+    <Compile Include="MonthlySchedule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomPassword.cs" />
+    <Compile Include="RunQuery.cs" />
+    <Compile Include="Tenant.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

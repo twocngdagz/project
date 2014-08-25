@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Mashisho.FilterListDetailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ViewModels="clr-namespace:Mashisho"
+             xmlns:my="clr-namespace:Mashisho"
+             mc:Ignorable="d" 
+             d:DesignHeight="424" d:DesignWidth="745">
+    <UserControl.Resources>
+        <ResourceDictionary Source="MyDict.xaml"></ResourceDictionary>
+    </UserControl.Resources>
+    <!--UserControl.DataContext>
+        <ViewModels:TenantViewModel />
+    </UserControl.DataContext -->
+    <Grid Background="#FFE0B86C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="208*" />
+            <RowDefinition Height="173*" />
+        </Grid.RowDefinitions>
+        <ContentControl Grid.Row="0" Content="{Binding MyObjectFilter}"/>
+        <DataGrid Grid.Row="1" Name="dataGrid1" ItemsSource="{Binding Path=AllObjects}" DisplayMemberPath="Name" Margin="7" SelectedItem="{Binding Path=MyPartialObject.SetObject, Mode=OneWayToSource}" CanUserReorderColumns="True" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False" SelectionMode="Single" IsReadOnly="True" IsSynchronizedWithCurrentItem="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Other Occupiers" Binding="{Binding OtherOccupiers}"/>
+                <DataGridTextColumn Header="Directory" Binding="{Binding Directory}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ContentControl Grid.Row="2" Content="{Binding Path=MyPartialObject}"/>
+    </Grid>
+</UserControl>

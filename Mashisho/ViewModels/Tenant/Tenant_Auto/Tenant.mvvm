@@ -1,0 +1,6 @@
+﻿S Id uint
+A Name string
+A OtherOccupiers string
+A Directory string
+S Tenancies ObservableCollection<Tenancy> Count.ToString()
+A IsDeleted bool

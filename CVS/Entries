@@ -1,0 +1,17 @@
+/.cvsignore/1.2/Sat Mar  9 15:39:25 2013//
+/Book2.xls/1.1.1.1/Sun Sep 25 22:08:44 2011//
+/Utils.sln/1.8/Sat Mar 30 06:05:22 2013//
+/nunit.bat/1.3/Sat Mar 30 06:18:44 2013//
+D/AccountsUtils////
+D/AutomateExcel////
+D/BankStatements////
+D/DLLs////
+D/ExcelAddin////
+D/ForecastAndClassify////
+D/HousePrices////
+D/MVVMCodeGenerator////
+D/Mashisho////
+D/TemplateFiller////
+D/Unix////
+D/Utilities////
+D/Utils////
